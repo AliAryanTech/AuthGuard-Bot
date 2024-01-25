@@ -1,0 +1,28 @@
+{
+  "name": "authguard-bot",
+  "version": "1.0.0",
+  "description": "Swift OTP verification for validating phone numbers securely.",
+  "author": "AliAryanTech",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "verify",
+    "otp"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "homepage": "https://github.com/AliAryanTech/AuthGuard-Bot",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "pino": "^8.17.2",
+    "qr-image": "^3.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
