@@ -12,7 +12,7 @@ const fs = require('fs-extra')
 const cors = require('cors')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 const verification = new Map()
 
 app.set('json spaces', 2)
